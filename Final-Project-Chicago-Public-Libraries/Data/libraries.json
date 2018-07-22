@@ -1,0 +1,936 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "x8fc-8rcq",
+      "name" : "Libraries - Locations, Hours and Contact Information",
+      "attribution" : "Chicago Public Library",
+      "attributionLink" : "http://chipublib.org",
+      "averageRating" : 0,
+      "category" : "Education",
+      "createdAt" : 1293050996,
+      "description" : "Chicago Public Library locations, contact information, and hours of operation.",
+      "displayType" : "table",
+      "downloadCount" : 5497,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1441931327,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 13256402,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1441918938,
+      "publicationGroup" : 220744,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1441918884,
+      "rowsUpdatedBy" : "vedk-n2zt",
+      "tableId" : 4287076,
+      "totalTimesRated" : 0,
+      "viewCount" : 81547,
+      "viewLastModified" : 1441918938,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 221405922,
+        "name" : "NAME ",
+        "dataTypeName" : "text",
+        "fieldName" : "name_",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424780,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "Wrightwood-Ashburn",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Lincoln Park",
+            "count" : 20
+          }, {
+            "item" : "Little Village",
+            "count" : 19
+          }, {
+            "item" : "Logan Square",
+            "count" : 18
+          }, {
+            "item" : "Lozano",
+            "count" : 17
+          }, {
+            "item" : "Manning",
+            "count" : 16
+          }, {
+            "item" : "Mayfair",
+            "count" : 15
+          }, {
+            "item" : "McKinley Park",
+            "count" : 14
+          }, {
+            "item" : "Merlo",
+            "count" : 13
+          }, {
+            "item" : "Mount Greenwood",
+            "count" : 12
+          }, {
+            "item" : "Near North",
+            "count" : 11
+          }, {
+            "item" : "North Austin",
+            "count" : 10
+          }, {
+            "item" : "North Pulaski",
+            "count" : 9
+          }, {
+            "item" : "Northtown",
+            "count" : 8
+          }, {
+            "item" : "Oriole Park",
+            "count" : 7
+          }, {
+            "item" : "Portage-Cragin",
+            "count" : 6
+          }, {
+            "item" : "Pullman",
+            "count" : 5
+          }, {
+            "item" : "Roden",
+            "count" : 4
+          }, {
+            "item" : "Rogers Park",
+            "count" : 3
+          }, {
+            "item" : "Roosevelt",
+            "count" : 2
+          }, {
+            "item" : "Scottsdale",
+            "count" : 1
+          } ],
+          "smallest" : "Albany Park"
+        },
+        "format" : { }
+      }, {
+        "id" : 221405924,
+        "name" : "HOURS OF OPERATION",
+        "dataTypeName" : "text",
+        "fieldName" : "hours_of_operation",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424788,
+        "width" : 380,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "M-TH: 9AM-9PM; F, SA: 9AM-5PM; SU: 1PM-5PM",
+          "null" : 0,
+          "top" : [ {
+            "item" : "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed",
+            "count" : 20
+          }, {
+            "item" : "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed",
+            "count" : 19
+          }, {
+            "item" : "M-TH: 10AM-6PM; F: 9AM-5PM; SA, SU: Closed",
+            "count" : 18
+          }, {
+            "item" : "M-TH: 9AM-9PM; F, SA: 9AM-5PM; SU: 1PM-5PM",
+            "count" : 17
+          }, {
+            "item" : "M-TH: 9AM-7PM; F, SA: 9AM-5PM; SU: 1PM-5PM",
+            "count" : 16
+          } ],
+          "smallest" : "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed"
+        },
+        "format" : { }
+      }, {
+        "id" : 221405925,
+        "name" : "CYBERNAVIGATOR",
+        "dataTypeName" : "text",
+        "fieldName" : "cybernavigator",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1914541,
+        "width" : 164,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "Yes ",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Yes",
+            "count" : 20
+          }, {
+            "item" : "No",
+            "count" : 19
+          }, {
+            "item" : "Yes ",
+            "count" : 18
+          } ],
+          "smallest" : "No"
+        },
+        "format" : { }
+      }, {
+        "id" : 221405927,
+        "name" : "TEACHER IN THE LIBRARY",
+        "dataTypeName" : "text",
+        "fieldName" : "teacher_in_the_library",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1914542,
+        "width" : 214,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "Yes ",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Yes ",
+            "count" : 20
+          } ],
+          "smallest" : "Yes "
+        },
+        "format" : { }
+      }, {
+        "id" : 221405928,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424781,
+        "width" : 154,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "9525 S. Halsted Street",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1150 W. Fullerton Avenue",
+            "count" : 20
+          }, {
+            "item" : "2311 S. Kedzie Avenue",
+            "count" : 19
+          }, {
+            "item" : "3030 W. Fullerton Avenue",
+            "count" : 18
+          }, {
+            "item" : "1805 S. Loomis Street",
+            "count" : 17
+          }, {
+            "item" : "6 S. Hoyne Avenue",
+            "count" : 16
+          }, {
+            "item" : "4400 W. Lawrence Avenue",
+            "count" : 15
+          }, {
+            "item" : "1915 W. 35th Street",
+            "count" : 14
+          }, {
+            "item" : "644 W. Belmont Avenue",
+            "count" : 13
+          }, {
+            "item" : "11010 S. Kedzie Avenue",
+            "count" : 12
+          }, {
+            "item" : "310 W. Division Street",
+            "count" : 11
+          }, {
+            "item" : "5724 W. North Avenue",
+            "count" : 10
+          }, {
+            "item" : "4300 W. North Avenue",
+            "count" : 9
+          }, {
+            "item" : "6435 N. California Avenue",
+            "count" : 8
+          }, {
+            "item" : "7454 W. Balmoral Avenue",
+            "count" : 7
+          }, {
+            "item" : "5108 W. Belmont Avenue",
+            "count" : 6
+          }, {
+            "item" : "11001 S. Indiana Avenue",
+            "count" : 5
+          }, {
+            "item" : "6083 N. Northwest Highway",
+            "count" : 4
+          }, {
+            "item" : "6907 N. Clark Street",
+            "count" : 3
+          }, {
+            "item" : "1101 W. Taylor Street",
+            "count" : 2
+          }, {
+            "item" : "4101 W. 79th Street",
+            "count" : 1
+          } ],
+          "smallest" : "1000 East 73rd Street"
+        },
+        "format" : { }
+      }, {
+        "id" : 221405929,
+        "name" : "CITY",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424782,
+        "width" : 78,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "CHICAGO",
+          "null" : 0,
+          "top" : [ {
+            "item" : "CHICAGO",
+            "count" : 20
+          } ],
+          "smallest" : "CHICAGO"
+        },
+        "format" : { }
+      }, {
+        "id" : 221405930,
+        "name" : "STATE",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424783,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "IL",
+          "null" : 0,
+          "top" : [ {
+            "item" : "IL",
+            "count" : 20
+          } ],
+          "smallest" : "IL"
+        },
+        "format" : { }
+      }, {
+        "id" : 221405932,
+        "name" : "ZIP",
+        "dataTypeName" : "text",
+        "fieldName" : "zip",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424789,
+        "width" : 60,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "60827",
+          "null" : 0,
+          "top" : [ {
+            "item" : "60632",
+            "count" : 20
+          }, {
+            "item" : "60634",
+            "count" : 19
+          }, {
+            "item" : "60617",
+            "count" : 18
+          }, {
+            "item" : "60609",
+            "count" : 17
+          }, {
+            "item" : "60615",
+            "count" : 16
+          }, {
+            "item" : "60647",
+            "count" : 15
+          }, {
+            "item" : "60616",
+            "count" : 14
+          }, {
+            "item" : "60638",
+            "count" : 13
+          }, {
+            "item" : "60608",
+            "count" : 12
+          }, {
+            "item" : "60612",
+            "count" : 11
+          }, {
+            "item" : "60623",
+            "count" : 10
+          }, {
+            "item" : "60630",
+            "count" : 9
+          }, {
+            "item" : "60657",
+            "count" : 8
+          }, {
+            "item" : "60639",
+            "count" : 7
+          }, {
+            "item" : "60607",
+            "count" : 6
+          }, {
+            "item" : "60652",
+            "count" : 5
+          }, {
+            "item" : "60649",
+            "count" : 4
+          }, {
+            "item" : "60625",
+            "count" : 3
+          }, {
+            "item" : "60620",
+            "count" : 2
+          }, {
+            "item" : "60613",
+            "count" : 1
+          } ],
+          "smallest" : "60605"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right"
+        }
+      }, {
+        "id" : 221405933,
+        "name" : "PHONE",
+        "dataTypeName" : "text",
+        "fieldName" : "phone",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1424791,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : "(773) 539-5450",
+          "null" : 0,
+          "top" : [ {
+            "item" : "(312) 744-1926",
+            "count" : 20
+          }, {
+            "item" : "(312) 745-1862",
+            "count" : 19
+          }, {
+            "item" : "(312) 744-5295",
+            "count" : 18
+          }, {
+            "item" : "(312) 746-4329",
+            "count" : 17
+          }, {
+            "item" : "(312) 746-6800",
+            "count" : 16
+          }, {
+            "item" : "(312) 744-1254",
+            "count" : 15
+          }, {
+            "item" : "(312) 747-6082",
+            "count" : 14
+          }, {
+            "item" : "(312) 744-1139",
+            "count" : 13
+          }, {
+            "item" : "(312) 747-2805",
+            "count" : 12
+          }, {
+            "item" : "(312) 744-0991",
+            "count" : 11
+          }, {
+            "item" : "(312) 746-4233",
+            "count" : 10
+          }, {
+            "item" : "(312) 744-9573",
+            "count" : 9
+          }, {
+            "item" : "(312) 744-2292",
+            "count" : 8
+          }, {
+            "item" : "(312) 744-1965",
+            "count" : 7
+          }, {
+            "item" : "(312) 744-0152",
+            "count" : 6
+          }, {
+            "item" : "(312) 747-2033",
+            "count" : 5
+          }, {
+            "item" : "(312) 744-1478",
+            "count" : 4
+          }, {
+            "item" : "(312) 744-0156",
+            "count" : 3
+          }, {
+            "item" : "(312) 746-5656",
+            "count" : 2
+          }, {
+            "item" : "(312) 747-0193",
+            "count" : 1
+          } ],
+          "smallest" : "(312) 742-8811"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 221405935,
+        "name" : "WEBSITE",
+        "dataTypeName" : "url",
+        "fieldName" : "website",
+        "position" : 10,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1424786,
+        "width" : 154,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : {
+            "url" : "http://www.chipublib.org/locations/98"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/48"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/51"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/49"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/62"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/55"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/52"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/50"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/46"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/54"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/60"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/56"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/58"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/59"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/61"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/63"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/64"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/100"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/121"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/122"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.chipublib.org/locations/69"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "url" : "http://www.chipublib.org/locations/1/"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 221405936,
+        "name" : "LOCATION",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 11,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1424792,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 80,
+          "largest" : {
+            "latitude" : "41.73832399791064",
+            "longitude" : "-87.70213010561923"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "41.925591694002954",
+              "longitude" : "-87.6581132450843"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "41.8495331",
+              "longitude" : "-87.7051215"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "41.92505210078537",
+              "longitude" : "-87.70339410925955"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "41.85752200960524",
+              "longitude" : "-87.6609371162563"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "41.88118570415187",
+              "longitude" : "-87.67914211111776"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "41.968354456496165",
+              "longitude" : "-87.7381618989123"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "41.830447500170855",
+              "longitude" : "-87.67339165430255"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "41.940084208613214",
+              "longitude" : "-87.64614322696454"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "41.69291909858246",
+              "longitude" : "-87.70103788554279"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "41.90386938756309",
+              "longitude" : "-87.63648979790898"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "41.90942919798428",
+              "longitude" : "-87.76879898888265"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "41.91004241611636",
+              "longitude" : "-87.73392609215429"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "41.99833902904292",
+              "longitude" : "-87.6996500514452"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "41.977961140156296",
+              "longitude" : "-87.8132091093451"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "41.93877675039972",
+              "longitude" : "-87.75449293765163"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "41.69440640901795",
+              "longitude" : "-87.61826066226358"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "41.99191752494232",
+              "longitude" : "-87.79830189864583"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "42.00670763656976",
+              "longitude" : "-87.67340767268539"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "41.86927614852819",
+              "longitude" : "-87.65447998408592"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "41.749361683410754",
+              "longitude" : "-87.72439557570442"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "41.975456",
+            "longitude" : "-87.71409"
+          }
+        },
+        "format" : {
+          "view" : "coords",
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Last Updated Date via Automated Load" : "",
+            "Time Period" : "",
+            "Data Owner" : "Chicago Public Library",
+            "Frequency" : "Data is updated as needed"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "libraries", "facilities", "gis" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "13BFA4C7-78CE-4D83-B53D-B57C60B701CF", 1, 1441893680, "885709", 1441893680, "885709", null, "Albany Park", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "3401 W. Foster Avenue", "CHICAGO", "IL", "60625", "(773) 539-5450", [ "http://www.chipublib.org/locations/1/", null ], [ null, "41.975456", "-87.71409", null, false ] ]
+, [ 2, "90A44202-40D2-4634-8FDC-036AD794CC81", 2, 1441893680, "885709", 1441893680, "885709", null, "Altgeld", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "13281 S. Corliss Avenue", "CHICAGO", "IL", "60827", "(312) 747-3270", [ "http://www.chipublib.org/locations/3/", null ], [ null, "41.65473021837776", "-87.6022302609835", null, false ] ]
+, [ 3, "591322FA-E9A3-488B-AA34-DDD55AD07468", 3, 1441893680, "885709", 1441893680, "885709", null, "Archer Heights", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "5055 S. Archer Avenue", "CHICAGO", "IL", "60632", "(312) 747-9241", [ "http://www.chipublib.org/locations/4/", null ], [ null, "41.8012136599335", "-87.72649071431441", null, false ] ]
+, [ 4, "9778B75F-D3FA-42A2-876F-553C4E3DFB06", 4, 1441893680, "885709", 1441893680, "885709", null, "Austin", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "5615 W. Race Avenue", "CHICAGO", "IL", "60644", "(312) 746-5038", [ "http://www.chipublib.org/locations/6/", null ], [ null, "41.889272153514526", "-87.76571186722818", null, false ] ]
+, [ 5, "A63E2979-A2CD-4D33-BB7B-E689D1B9C67A", 5, 1441893680, "885709", 1441893680, "885709", null, "Austin-Irving", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "6100 W. Irving Park Road", "CHICAGO", "IL", "60634", "(312) 744-6222", [ "http://www.chipublib.org/locations/7/", null ], [ null, "41.95317390064158", "-87.77938682073541", null, false ] ]
+, [ 6, "478CBEF0-1F8F-4352-87D9-E2256E45D47B", 6, 1441893680, "885709", 1441893680, "885709", null, "Avalon", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "8148 S. Stony Island Avenue ", "CHICAGO", "IL", "60617", "(312) 747-5234", [ "http://www.chipublib.org/locations/8/", null ], [ null, "41.74671722160199", "-87.58539658719002", null, false ] ]
+, [ 7, "D3313315-F012-4B82-BA05-F9226E282A25", 7, 1441893680, "885709", 1441893680, "885709", null, "Back of the Yards", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "2111 W. 47th Street", "CHICAGO", "IL", "60609", "(312) 747-9595", [ "http://www.chipublib.org/locations/9/", null ], [ null, "41.808384423666354", "-87.67756963874196", null, false ] ]
+, [ 8, "2D9DBDE6-68B6-4DAB-88D9-8AC54281BE85", 8, 1441893680, "885709", 1441893680, "885709", null, "Beverly", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "1962 W. 95th Street", "CHICAGO", "IL", "60643", "(312) 747-9673", [ "http://www.chipublib.org/locations/10/", null ], [ null, "41.721180505456495", "-87.6719464613888", null, false ] ]
+, [ 9, "B5CF229E-4686-4A7F-AE01-7304DD8E5596", 9, 1441893680, "885709", 1441893680, "885709", null, "Bezazian", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "1226 W. Ainslie Street", "CHICAGO", "IL", "60640", "(312) 744-0019", [ "http://www.chipublib.org/locations/11/", null ], [ null, "41.97168194800458", "-87.66073027218957", null, false ] ]
+, [ 10, "8113382C-BFBA-4039-8D64-DDE89834BB12", 10, 1441893680, "885709", 1441893680, "885709", null, "Blackstone", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "4904 S. Lake Park Avenue", "CHICAGO", "IL", "60615", "(312) 747-0511", [ "http://www.chipublib.org/locations/12/", null ], [ null, "41.8058403098503", "-87.58934182212592", null, false ] ]
+, [ 11, "898E7B09-49B1-43D9-A741-8EC5B2BFD167", 11, 1441893680, "885709", 1441893680, "885709", null, "Brainerd", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "1350 W. 89th Street", "CHICAGO", "IL", "60620", "(312) 747-6291", [ "http://www.chipublib.org/locations/13/", null ], [ null, "41.732316757097045", "-87.65723451581835", null, false ] ]
+, [ 12, "ABCFF69D-9067-4A4B-8461-0EC6EC91B39D", 12, 1441893680, "885709", 1441893680, "885709", null, "Brighton Park", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "4314 S. Archer Avenue", "CHICAGO", "IL", "60632", "(312) 747-0666", [ "http://www.chipublib.org/locations/16/", null ], [ null, "41.815138789328266", "-87.70265431614907", null, false ] ]
+, [ 13, "5D008CA0-8191-44C0-AE57-ADEA350DC407", 13, 1441893680, "885709", 1441893680, "885709", null, "Bucktown-Wicker Park", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "1701 N. Milwaukee Avenue", "CHICAGO", "IL", "60647", "(312) 744-6022", [ "http://www.chipublib.org/locations/138/", null ], [ null, "41.91272239576367", "-87.6805873025965", null, false ] ]
+, [ 14, "2405E661-AE26-4B58-8C65-A558E7E5968E", 14, 1441893680, "885709", 1441893680, "885709", null, "Budlong Woods", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "5630 N. Lincoln Avenue", "CHICAGO", "IL", "60659", "(312) 742-9590", [ "http://www.chipublib.org/locations/137/", null ], [ null, "41.98457226437275", "-87.69773449236712", null, false ] ]
+, [ 15, "88F735EB-A081-410A-9560-2470E58C996C", 15, 1441893680, "885709", 1441893680, "885709", null, "Canaryville", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "642 W. 43rd Street", "CHICAGO", "IL", "60609", "(312) 747-0644", [ "http://www.chipublib.org/locations/2/", null ], [ null, "41.815505684396335", "-87.64250101465565", null, false ] ]
+, [ 16, "430E7FCA-B908-45F6-994F-52247B3501ED", 16, 1441893680, "885709", 1441893680, "885709", null, "Chicago Bee", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "3647 S. State Street", "CHICAGO", "IL", "60609", "(312) 747-6872", [ "http://www.chipublib.org/locations/29/", null ], [ null, "41.8284268698988", "-87.62640221644719", null, false ] ]
+, [ 17, "D653EA91-DB01-4D10-9ED2-1B2DB4754E89", 17, 1441893680, "885709", 1441893680, "885709", null, "Chicago Lawn", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "6120 S. Kedzie Avenue ", "CHICAGO", "IL", "60629", "(312) 747-0639", [ "http://www.chipublib.org/locations/19/", null ], [ null, "41.78180787787282", "-87.70326162211758", null, false ] ]
+, [ 18, "08BD8396-3522-4933-A82B-4187AA7BD2B8", 18, 1441893680, "885709", 1441893680, "885709", null, "Chinatown", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "2100 S. Wentworth Avenue", "CHICAGO", "IL", "60616", "(312) 747-8013", [ "http://www.chipublib.org/locations/20/", null ], [ null, "41.85412074173438", "-87.63195792246246", null, false ] ]
+, [ 19, "1B5F24A8-4019-4521-83A8-3AD725954C28", 19, 1441893680, "885709", 1441893680, "885709", null, "Clearing", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "6423 W. 63rd Place", "CHICAGO", "IL", "60638", "(312) 747-5657", [ "http://www.chipublib.org/locations/21/", null ], [ null, "41.77678205621646", "-87.78181978755116", null, false ] ]
+, [ 20, "7A2A0B7C-521A-4E03-882D-89F871E98922", 20, 1441893680, "885709", 1441893680, "885709", null, "Coleman", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "731 E. 63rd Street", "CHICAGO", "IL", "60637", "(312) 747-7760", [ "http://www.chipublib.org/locations/18/", null ], [ null, "41.78037301095412", "-87.60715724280014", null, false ] ]
+, [ 21, "FD7E7C0C-BA51-4EFE-9484-EACA5A7A4BA5", 21, 1441893680, "885709", 1441893680, "885709", null, "Daley, Richard J.-Bridgeport", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "3400 S. Halsted Street", "CHICAGO", "IL", "60608", "(312) 747-8990", [ "http://www.chipublib.org/locations/14/", null ], [ null, "41.83228703346308", "-87.64648501124545", null, false ] ]
+, [ 22, "BF05807D-0F14-40B9-9925-7D51C2717F5D", 22, 1441893680, "885709", 1441893680, "885709", null, "Daley, Richard M.-W Humboldt", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "733 N. Kedzie Avenue", "CHICAGO", "IL", "60612", "(312) 743-0555", [ "http://www.chipublib.org/locations/173/", null ], [ null, "41.8943707", "-87.7064607", null, false ] ]
+, [ 23, "3BEF3377-0CAE-47E7-8884-8AD3E4C7C192", 23, 1441893680, "885709", 1441893680, "885709", null, "Douglass", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "3353 W. 13th Street", "CHICAGO", "IL", "60623", "(312) 747-3725", [ "http://www.chipublib.org/locations/23/", null ], [ null, "41.864500759742604", "-87.70968548933996", null, false ] ]
+, [ 24, "BE146B42-A321-4677-980F-828A5069F358", 24, 1441893680, "885709", 1441893680, "885709", null, "Dunning", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "7455 W. Cornelia Avenue", "CHICAGO", "IL", "60634", "(312) 743-0480", [ "http://www.chipublib.org/locations/82/", null ], [ null, "41.943308", "-87.817497", null, false ] ]
+, [ 25, "2FCF6EC1-D4E9-4A54-B7BA-F3C830063825", 25, 1441893680, "885709", 1441893680, "885709", null, "Edgebrook", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "5331 W. Devon Avenue", "CHICAGO", "IL", "60646", "(312) 744-8313", [ "http://www.chipublib.org/locations/27/", null ], [ null, "41.9969708834685", "-87.7620478920105", null, false ] ]
+, [ 26, "17D5F016-CC9B-469C-BBDE-1C82DCDB899C", 26, 1441893680, "885709", 1441893680, "885709", null, "Edgewater", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes ", "Yes ", "6000 N. Broadway Street", "CHICAGO", "IL", "60660", "(312) 744-0718", [ "http://www.chipublib.org/locations/28/", null ], [ null, "41.990996", "-87.660757", null, false ] ]
+, [ 27, "9CAC4511-4C02-4868-AE72-B55351557B12", 27, 1441893680, "885709", 1441893680, "885709", null, "Gage Park", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "2807 W. 55th Street", "CHICAGO", "IL", "60632", "(312) 747-0032", [ "http://www.chipublib.org/locations/30/", null ], [ null, "41.79369723271382", "-87.69404645462895", null, false ] ]
+, [ 28, "56F97331-BF40-454E-8B0D-31A52DE46966", 28, 1441893680, "885709", 1441893680, "885709", null, "Galewood-Mont Clare", "M-TH: 10AM-6PM; F: 9AM-5PM; SA, SU: Closed", "No", "Yes ", "6871 W. Belden Avenue", "CHICAGO", "IL", "60707", "(312) 746-0165", [ "http://www.chipublib.org/locations/31/", null ], [ null, "41.921114724943386", "-87.79724102070298", null, false ] ]
+, [ 29, "C8A6018D-65C2-4512-864D-8F528C9E8BCB", 29, 1441893680, "885709", 1441893680, "885709", null, "Garfield Ridge", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "6348 S. Archer Avenue", "CHICAGO", "IL", "60638", "(312) 747-6094", [ "http://www.chipublib.org/locations/26/", null ], [ null, "41.79298666078267", "-87.78013325801972", null, false ] ]
+, [ 30, "1F511554-1394-411E-B5D9-FBB7DBD2B652", 30, 1441893680, "885709", 1441893680, "885709", null, "Greater Grand Crossing", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "1000 East 73rd Street", "CHICAGO", "IL", "60619", "(312) 745-1608", [ "http://www.chipublib.org/locations/172/", null ], [ null, "41.7623", "-87.6005", null, false ] ]
+, [ 31, "BDDB6715-767A-4429-A8A1-2EA17E7C31C5", 31, 1441893680, "885709", 1441893680, "885709", null, "Hall", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "4801 S. Michigan Avenue", "CHICAGO", "IL", "60615", "(312) 747-2541", [ "http://www.chipublib.org/locations/33/", null ], [ null, "41.80743298280974", "-87.62273981936815", null, false ] ]
+, [ 32, "AFCE5DBB-0C9A-4452-AA5A-FDECB04599C3", 32, 1441893680, "885709", 1441893680, "885709", null, "Harold Washington-HWLC", "M-TH: 9AM-9PM; F, SA: 9AM-5PM; SU: 1PM-5PM", "Yes", "Yes ", "400 S. State Street", "CHICAGO", "IL", "60605", "(312) 747-4300", [ "http://www.chipublib.org/locations/15/", null ], [ null, "41.87629985357702", "-87.62819280116949", null, false ] ]
+, [ 33, "ECB51B2E-C632-4E7D-BB76-755D4989AF15", 33, 1441893680, "885709", 1441893680, "885709", null, "Hegewisch", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "3048 E. 130th Street", "CHICAGO", "IL", "60633", "(312) 747-0046", [ "http://www.chipublib.org/locations/95/", null ], [ null, "41.65917887033542", "-87.54824132727411", null, false ] ]
+, [ 34, "4D3A1517-6EF7-4B91-8892-0FFFF058C6B3", 34, 1441893680, "885709", 1441893680, "885709", null, "Humboldt Park", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "1605 N. Troy Street", "CHICAGO", "IL", "60647", "(312) 744-2244", [ "http://www.chipublib.org/locations/39/", null ], [ null, "41.910328", "-87.705427", null, false ] ]
+, [ 35, "11CE7C19-957F-4807-9C80-3D7205BD0B7B", 35, 1441893680, "885709", 1441893680, "885709", null, "Independence", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "3548 W. Irving Park Road", "CHICAGO", "IL", "60618", "(312) 744-0900", [ "http://www.chipublib.org/locations/41/", null ], [ null, "41.953903720729926", "-87.71694255042644", null, false ] ]
+, [ 36, "ECB53290-FF15-49AE-96C2-C35B09F48992", 36, 1441893680, "885709", 1441893680, "885709", null, "Jefferson Park", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "5363 W. Lawrence Avenue", "CHICAGO", "IL", "60630", "(312) 744-1998", [ "http://www.chipublib.org/locations/37/", null ], [ null, "41.96759739182978", "-87.76155426232721", null, false ] ]
+, [ 37, "75393A69-0593-4C3D-954C-328090246770", 37, 1441893680, "885709", 1441893680, "885709", null, "Jeffery Manor", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "2401 E. 100th Street", "CHICAGO", "IL", "60617", "(312) 747-6479", [ "http://www.chipublib.org/locations/43/", null ], [ null, "41.71326176288522", "-87.56549206928669", null, false ] ]
+, [ 38, "3E086DD2-0815-45FF-B2E8-A66EECF5EACE", 38, 1441893680, "885709", 1441893680, "885709", null, "Kelly", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "6151 S. Normal Boulevard", "CHICAGO", "IL", "60621", "(312) 747-8418", [ "http://www.chipublib.org/locations/44", null ], [ null, "41.78217163315653", "-87.63740786532117", null, false ] ]
+, [ 39, "C141DD89-8152-4899-9A29-3D6221EEF18A", 39, 1441893680, "885709", 1441893680, "885709", null, "King", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes ", "Yes ", "3436 S. King Drive", "CHICAGO", "IL", "60616", "(312) 747-7543", [ "http://www.chipublib.org/locations/45", null ], [ null, "41.83180139956726", "-87.6177606656296", null, false ] ]
+, [ 40, "683C2D98-75FC-41FF-B6A0-AB63210B89DB", 40, 1441893680, "885709", 1441893680, "885709", null, "Legler", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "115 S. Pulaski Road", "CHICAGO", "IL", "60624", "(312) 746-7730", [ "http://www.chipublib.org/locations/47", null ], [ null, "41.87933865849079", "-87.72556034620074", null, false ] ]
+, [ 41, "AA6A8E51-2303-41E7-9D21-35E289CE7E81", 41, 1441893680, "885709", 1441893680, "885709", null, "Lincoln Belmont", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "1659 W. Melrose Street", "CHICAGO", "IL", "60657", "(312) 744-0166", [ "http://www.chipublib.org/locations/68", null ], [ null, "41.94031359562259", "-87.67075771281625", null, false ] ]
+, [ 42, "776B1D94-B930-42D3-8D93-131D09B6EFB5", 42, 1441893680, "885709", 1441893680, "885709", null, "Lincoln Park", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "1150 W. Fullerton Avenue", "CHICAGO", "IL", "60614", "(312) 744-1926", [ "http://www.chipublib.org/locations/48", null ], [ null, "41.925591694002954", "-87.6581132450843", null, false ] ]
+, [ 43, "AD33A10C-D168-4F50-A941-9B7EFA6373A0", 43, 1441893680, "885709", 1441893680, "885709", null, "Little Village", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "2311 S. Kedzie Avenue", "CHICAGO", "IL", "60623", "(312) 745-1862", [ "http://www.chipublib.org/locations/51", null ], [ null, "41.8495331", "-87.7051215", null, false ] ]
+, [ 44, "6A007A04-374F-410D-87F9-55CF374CDE02", 44, 1441893680, "885709", 1441893680, "885709", null, "Logan Square", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "3030 W. Fullerton Avenue", "CHICAGO", "IL", "60647", "(312) 744-5295", [ "http://www.chipublib.org/locations/49", null ], [ null, "41.92505210078537", "-87.70339410925955", null, false ] ]
+, [ 45, "1807630C-4362-4CE9-AE86-E3043E7B9A29", 45, 1441893680, "885709", 1441893680, "885709", null, "Lozano", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "1805 S. Loomis Street", "CHICAGO", "IL", "60608", "(312) 746-4329", [ "http://www.chipublib.org/locations/62", null ], [ null, "41.85752200960524", "-87.6609371162563", null, false ] ]
+, [ 46, "77A0BE2A-09AA-47ED-88A3-14228EDC5897", 46, 1441893680, "885709", 1441893680, "885709", null, "Manning", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "6 S. Hoyne Avenue", "CHICAGO", "IL", "60612", "(312) 746-6800", [ "http://www.chipublib.org/locations/55", null ], [ null, "41.88118570415187", "-87.67914211111776", null, false ] ]
+, [ 47, "720C1028-A78A-42D8-BF71-F2333087EC15", 47, 1441893680, "885709", 1441893680, "885709", null, "Mayfair", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "4400 W. Lawrence Avenue", "CHICAGO", "IL", "60630", "(312) 744-1254", [ "http://www.chipublib.org/locations/52", null ], [ null, "41.968354456496165", "-87.7381618989123", null, false ] ]
+, [ 48, "56750B32-9845-4BDF-9FEB-B2CD86E4E5A6", 48, 1441893680, "885709", 1441893680, "885709", null, "McKinley Park", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "1915 W. 35th Street", "CHICAGO", "IL", "60609", "(312) 747-6082", [ "http://www.chipublib.org/locations/50", null ], [ null, "41.830447500170855", "-87.67339165430255", null, false ] ]
+, [ 49, "FD16E79A-B32F-4B51-9CE1-A2F4420A3F5F", 49, 1441893680, "885709", 1441893680, "885709", null, "Merlo", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "644 W. Belmont Avenue", "CHICAGO", "IL", "60657", "(312) 744-1139", [ "http://www.chipublib.org/locations/46", null ], [ null, "41.940084208613214", "-87.64614322696454", null, false ] ]
+, [ 50, "C93038F5-2D04-4C68-AFEB-A6894A434A9E", 50, 1441893680, "885709", 1441893680, "885709", null, "Mount Greenwood", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "11010 S. Kedzie Avenue", "CHICAGO", "IL", "60655", "(312) 747-2805", [ "http://www.chipublib.org/locations/54", null ], [ null, "41.69291909858246", "-87.70103788554279", null, false ] ]
+, [ 51, "D2DDFC67-12C3-4C58-8898-932741ED548F", 51, 1441893680, "885709", 1441893680, "885709", null, "Near North", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "310 W. Division Street", "CHICAGO", "IL", "60610", "(312) 744-0991", [ "http://www.chipublib.org/locations/60", null ], [ null, "41.90386938756309", "-87.63648979790898", null, false ] ]
+, [ 52, "4AF282FE-E83B-4D2C-BC58-12D2CF2A8331", 52, 1441893680, "885709", 1441893680, "885709", null, "North Austin", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "5724 W. North Avenue", "CHICAGO", "IL", "60639", "(312) 746-4233", [ "http://www.chipublib.org/locations/56", null ], [ null, "41.90942919798428", "-87.76879898888265", null, false ] ]
+, [ 53, "6D977858-59A0-4614-A3B8-6180A47C8A99", 53, 1441893680, "885709", 1441893680, "885709", null, "North Pulaski", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "4300 W. North Avenue", "CHICAGO", "IL", "60639", "(312) 744-9573", [ "http://www.chipublib.org/locations/58", null ], [ null, "41.91004241611636", "-87.73392609215429", null, false ] ]
+, [ 54, "5396BC2D-6B46-41E5-BF05-1D2771602D65", 54, 1441893680, "885709", 1441893680, "885709", null, "Northtown", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "6435 N. California Avenue", "CHICAGO", "IL", "60645", "(312) 744-2292", [ "http://www.chipublib.org/locations/59", null ], [ null, "41.99833902904292", "-87.6996500514452", null, false ] ]
+, [ 55, "00AA73BB-E1CC-43D5-B02A-63358A549CE2", 55, 1441893680, "885709", 1441893680, "885709", null, "Oriole Park", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "7454 W. Balmoral Avenue", "CHICAGO", "IL", "60656", "(312) 744-1965", [ "http://www.chipublib.org/locations/61", null ], [ null, "41.977961140156296", "-87.8132091093451", null, false ] ]
+, [ 56, "796FBF3E-8208-4CAC-BDDC-3AE50967EDD5", 56, 1441893680, "885709", 1441893680, "885709", null, "Portage-Cragin", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "5108 W. Belmont Avenue", "CHICAGO", "IL", "60641", "(312) 744-0152", [ "http://www.chipublib.org/locations/63", null ], [ null, "41.93877675039972", "-87.75449293765163", null, false ] ]
+, [ 57, "7D48B853-B4CD-4E7A-9559-159CB30D531D", 57, 1441893680, "885709", 1441893680, "885709", null, "Pullman", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "11001 S. Indiana Avenue", "CHICAGO", "IL", "60628", "(312) 747-2033", [ "http://www.chipublib.org/locations/64", null ], [ null, "41.69440640901795", "-87.61826066226358", null, false ] ]
+, [ 58, "70C93BED-EC81-47C8-9E50-887848FDB302", 58, 1441893680, "885709", 1441893680, "885709", null, "Roden", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "6083 N. Northwest Highway", "CHICAGO", "IL", "60631", "(312) 744-1478", [ "http://www.chipublib.org/locations/100", null ], [ null, "41.99191752494232", "-87.79830189864583", null, false ] ]
+, [ 59, "1B3740A1-5935-469B-BB40-00DD997F762D", 59, 1441893680, "885709", 1441893680, "885709", null, "Rogers Park", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "6907 N. Clark Street", "CHICAGO", "IL", "60626", "(312) 744-0156", [ "http://www.chipublib.org/locations/121", null ], [ null, "42.00670763656976", "-87.67340767268539", null, false ] ]
+, [ 60, "54A2CFB0-725F-4CD6-AD76-2FC4D4DEEB7C", 60, 1441893681, "885709", 1441893681, "885709", null, "Roosevelt", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "1101 W. Taylor Street", "CHICAGO", "IL", "60607", "(312) 746-5656", [ "http://www.chipublib.org/locations/122", null ], [ null, "41.86927614852819", "-87.65447998408592", null, false ] ]
+, [ 61, "EFF54016-E984-4AAC-9DBC-DF3E69695E72", 61, 1441893681, "885709", 1441893681, "885709", null, "Scottsdale", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "4101 W. 79th Street", "CHICAGO", "IL", "60652", "(312) 747-0193", [ "http://www.chipublib.org/locations/69", null ], [ null, "41.749361683410754", "-87.72439557570442", null, false ] ]
+, [ 62, "912951C3-3C66-4F08-BEBA-2ED600F7AC22", 62, 1441893681, "885709", 1441893681, "885709", null, "Sherman Park", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "5440 S. Racine Avenue", "CHICAGO", "IL", "60609", "(312) 747-0477", [ "http://www.chipublib.org/locations/70", null ], [ null, "41.795279421214886", "-87.65492071930115", null, false ] ]
+, [ 63, "0DF2A634-F65A-42A3-8FFF-0D1E7EC032E1", 63, 1441893681, "885709", 1441893681, "885709", null, "South Chicago", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "9055 S. Houston Avenue", "CHICAGO", "IL", "60617", "(312) 747-8065", [ "http://www.chipublib.org/locations/73", null ], [ null, "41.73057483460938", "-87.54980694003919", null, false ] ]
+, [ 64, "2D98108F-0590-4EBC-A1E9-3D74D65C469D", 64, 1441893681, "885709", 1441893681, "885709", null, "South Shore", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "2505 E. 73rd Street", "CHICAGO", "IL", "60649", "(312) 747-5281", [ "http://www.chipublib.org/locations/74", null ], [ null, "41.76155535585864", "-87.56208363879564", null, false ] ]
+, [ 65, "0F53D3A0-02F6-465F-BF79-AA5F484770B0", 65, 1441893681, "885709", 1441893681, "885709", null, "Sulzer Regional", "M-TH: 9AM-9PM; F, SA: 9AM-5PM; SU: 1PM-5PM", "Yes", "Yes ", "4455 N. Lincoln Avenue", "CHICAGO", "IL", "60625", "(312) 744-7616", [ "http://www.chipublib.org/locations/38", null ], [ null, "41.96240358108169", "-87.68441684946531", null, false ] ]
+, [ 66, "57CE4962-6B66-41C8-9C2B-584676A4D7E5", 66, 1441893681, "885709", 1441893681, "885709", null, "Thurgood Marshall", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "7506 S. Racine Avenue", "CHICAGO", "IL", "60620", "(312) 747-5927", [ "http://www.chipublib.org/locations/5", null ], [ null, "41.757801751628755", "-87.65398155309862", null, false ] ]
+, [ 67, "818F90CA-4234-4E15-81E6-835B7D44818A", 67, 1441893681, "885709", 1441893681, "885709", null, "Toman", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "2708 S. Pulaski Road", "CHICAGO", "IL", "60623", "(312) 745-1660", [ "http://www.chipublib.org/locations/78", null ], [ null, "41.84205367070128", "-87.72496884474246", null, false ] ]
+, [ 68, "F08B2221-4DF4-49A1-BE3E-602A856D1267", 68, 1441893681, "885709", 1441893681, "885709", null, "Uptown", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "929 W. Buena Avenue", "CHICAGO", "IL", "60613", "(312) 744-8400", [ "http://www.chipublib.org/locations/87", null ], [ null, "41.958445207514295", "-87.65351012268938", null, false ] ]
+, [ 69, "04734BA8-1F2D-4461-BDC7-8A892C31CF98", 69, 1441893681, "885709", 1441893681, "885709", null, "Vodak-East Side", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "3710 E. 106th Street", "CHICAGO", "IL", "60617", "(312) 747-5500", [ "http://www.chipublib.org/locations/24", null ], [ null, "41.70302747819179", "-87.53350318470449", null, false ] ]
+, [ 70, "ACBECAB1-BF19-43D7-9F2D-A9DE94218DFB", 70, 1441893681, "885709", 1441893681, "885709", null, "Walker", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "11071 S. Hoyne Avenue", "CHICAGO", "IL", "60643", "(312) 747-1920", [ "http://www.chipublib.org/locations/80", null ], [ null, "41.69244169242589", "-87.67413286555718", null, false ] ]
+, [ 71, "D646E934-00CF-4972-8D59-25096F38F87D", 71, 1441893681, "885709", 1441893681, "885709", null, "Water Works", "M-TH: 9AM-7PM; F, SA: 9AM-5PM; SU: 1PM-5PM", "No", "Yes ", "163 E. Pearson Street", "CHICAGO", "IL", "60611", "(312) 742-8811", [ "http://www.chipublib.org/locations/171", null ], [ null, "41.89758435399726", "-87.62314877110073", null, false ] ]
+, [ 72, "FB21DF14-A13F-4841-BD39-60AF0B421E71", 72, 1441893681, "885709", 1441893681, "885709", null, "West Belmont", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "3104 N. Narragansett Avenue", "CHICAGO", "IL", "60634", "(312) 746-5142", [ "http://www.chipublib.org/locations/83", null ], [ null, "41.93666211869315", "-87.78589145006396", null, false ] ]
+, [ 73, "FBDDB9E4-7404-4003-A288-2597BA2A056B", 73, 1441893681, "885709", 1441893681, "885709", null, "West Chicago Avenue", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "4856 W. Chicago Avenue", "CHICAGO", "IL", "60651", "(312) 743-0260", [ "http://www.chipublib.org/locations/139", null ], [ null, "41.895046508790834", "-87.74732954000841", null, false ] ]
+, [ 74, "014381BE-E97B-44D6-95D2-4B0391D66F4E", 74, 1441893681, "885709", 1441893681, "885709", null, "West Englewood", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "Yes", "Yes ", "1745 W. 63rd Street", "CHICAGO", "IL", "60636", "(312) 747-3481", [ "http://www.chipublib.org/locations/135", null ], [ null, "41.779334358813195", "-87.66812159090755", null, false ] ]
+, [ 75, "2486C636-4D68-4C9A-9777-41B5B5E38E2D", 75, 1441893681, "885709", 1441893681, "885709", null, "West Lawn", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "4020 W. 63rd Street", "CHICAGO", "IL", "60629", "(312) 747-7381", [ "http://www.chipublib.org/locations/84", null ], [ null, "41.778662219559784", "-87.7235385705056", null, false ] ]
+, [ 76, "88722D40-260B-45D3-838D-5139AF8A605E", 76, 1441893681, "885709", 1441893681, "885709", null, "West Pullman", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "830 W. 119th Street", "CHICAGO", "IL", "60643", "(312) 747-1425", [ "http://www.chipublib.org/locations/136", null ], [ null, "41.67785087178982", "-87.64299968326193", null, false ] ]
+, [ 77, "F6B9B83B-475A-4A33-957B-C1901D62B505", 77, 1441893681, "885709", 1441893681, "885709", null, "West Town", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "1625 W. Chicago Avenue", "CHICAGO", "IL", "60622", "(312) 743-0450", [ "http://www.chipublib.org/locations/170", null ], [ null, "41.895752189070784", "-87.6682665907951", null, false ] ]
+, [ 78, "226B1862-3C09-4B0A-96A4-DED958D28A22", 78, 1441893681, "885709", 1441893681, "885709", null, "Whitney M. Young, Jr.", "M, W: 10AM-6PM;  TU, TH: 12PM-8PM; F, SA: 9AM-5PM; SU: Closed", "Yes ", "Yes ", "7901 S. King Drive", "CHICAGO", "IL", "60619", "(312) 747-0039", [ "http://www.chipublib.org/locations/89", null ], [ null, "41.75106360973631", "-87.61495065361933", null, false ] ]
+, [ 79, "15381134-852C-4F66-A49A-54F8211855C0", 79, 1441893681, "885709", 1441893681, "885709", null, "Woodson Regional", "M-TH: 9AM-9PM; F, SA: 9AM-5PM; SU: 1PM-5PM", "Yes", "Yes ", "9525 S. Halsted Street", "CHICAGO", "IL", "60628", "(312) 747-6900", [ "http://www.chipublib.org/locations/98", null ], [ null, "41.72093481286736", "-87.64309395216542", null, false ] ]
+, [ 80, "94B21FC0-21CC-41A4-9EBA-CEDBB7CDBA53", 80, 1441893681, "885709", 1441893681, "885709", null, "Wrightwood-Ashburn", "M, W: 12PM-8PM; TU, TH: 10AM-6PM; F, SA: 9AM-5PM; SU: Closed", "No", "Yes ", "8530 S. Kedzie Avenue", "CHICAGO", "IL", "60652", "(312) 747-2696", [ "http://www.chipublib.org/locations/90", null ], [ null, "41.73832399791064", "-87.70213010561923", null, false ] ]
+ ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/img/favicon.png" />
+  <link rel="apple-touch-icon" href="/img/favicon.png" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-zF4BRsG/fLiTGfR9QL82DrilZxrwgY/+du4p/c7J72zZj+FLYq4zY00RylP9ZjiT" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="/js/libraries.js"></script>
+  <link href="/css/style.css" rel="stylesheet">
+  <title>
+    Search Chicago Libraries
+  </title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <i class="fa fa-book"></i> Chicago Libraries Database
+          </a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active">
+            <a href="/">
+              <i class="fa fa-home"></i> Home
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-sm-3" id="search_col">
+        <div class="alert alert-info">
+          <h4>Search Chicago Libraries by Neighborhood</h4>
+          <form class="form" id ="form1">
+			<input type="text" name="name" id = "name" ><br>
+			<button type="submit" name="search_btn">Search</button><br>
+          </form>
+        </div>
+  	  <div class="popup" onclick="myFunction()">Try checking out these books!
+  		<div class="popuptext" id="myPopup">
+      After Dark by Haruki Murakami
+      <br>
+      Tiger's Curse by Colleen Houck
+      </div>
+      <div class="popuptext" id="myPopup"></div>
+      </div>
+    </div>
+    <div class="col-sm-9" id="results_col"></div>
+    <div id="details" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" id="detail_header"></h4>
+        </div>
+        <div class="modal-body" id="detail_body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script>
+  // When the user clicks on div, open the popup
+  function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+  }
+  </script>
+</body>
+</html>

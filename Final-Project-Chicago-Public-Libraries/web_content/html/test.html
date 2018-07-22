@@ -1,0 +1,48 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title" id="detail_header">{{Detail["name"]}}</h4>
+    </div>
+    <div class="modal-body" id="detail_body">
+      <table class="table">
+        <tr>
+          <th>Library Name</th>
+          <td>{{Detail['name']}}</td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td>{{Detail['address']}}</td>
+        </tr>
+        <tr>
+          <th>City</th>
+          <td>{{Detail['city']}}</td>
+        </tr>
+        <tr>
+          <th>State</th>
+          <td>{{Detail['state']}}</td>
+        </tr>
+        <tr>
+          <th>Zipcode</th>
+          <td>{{Detail['zipcode']}}</td>
+        </tr>
+        <tr>
+          <th>Hours</th>
+          <td>{{Detail['hours']}}</td>
+        </tr>
+        <tr>
+          <th>Phone Number</th>
+          <td>{{Detail['phone_number']}}</td>
+        </tr>
+        <tr>
+          <th>Website</th>
+          <td><a href="{{Detail['website']}}">{{Detail['website']}}</a></td>
+        </tr>
+      </table>
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
